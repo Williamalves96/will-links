@@ -1,5 +1,7 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
+import "../App.css";
+// import { FaLinkedin } from "react-icons/fa";
 
 function Linkedin() {
   return (

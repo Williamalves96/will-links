@@ -18,8 +18,10 @@ function App() {
         <DiGithubAlt />
         Git Hub
       </a>
-      <Linkedin />
+    
       
+ <Linkedin />
+    
     </div>
   );
 }
