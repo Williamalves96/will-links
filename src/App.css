@@ -11,6 +11,25 @@
   background-color: rgb(17, 237, 21);
   font-size: 28px;
 }
+
+.links:hover {
+  background-color: hsla(0, 0%, 2%, 0.2);
+  color: hsla(0, 0%, 2%, 1);
+  scale: 1.05;
+}
+
+a:visited {
+  color: hsla(0, 0%, 2%, 1);
+}
+a:link {
+  color: hsla(0, 0%, 2%, 1);
+}
+a:active {
+  color: rgb(174, 166, 16);
+} 
+
+
+
 .container-app {
   display: flex;
   flex-direction: column;
@@ -18,7 +37,7 @@
   align-items: center;
   min-height: 100vh;
   background: hsla(152, 100%, 50%, 1);
-
+  gap: 20px;
   background: radial-gradient(
     circle,
     hsla(152, 100%, 50%, 1) 0%,
